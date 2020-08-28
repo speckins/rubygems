@@ -180,7 +180,8 @@ LIST OF AVAILABLE KEYS
            the specified directory. Defaults to false.
 
        o   cache_all  (BUNDLE_CACHE_ALL):  Cache  all gems, including path and
-           git gems.
+           git gems. This needs to be explicitly configured on bundler  1  and
+           bundler 2, but will be the default on bundler 3.
 
        o   cache_all_platforms (BUNDLE_CACHE_ALL_PLATFORMS):  Cache  gems  for
            all platforms.
